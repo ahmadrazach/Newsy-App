@@ -1,27 +1,27 @@
 import React from "react";
 import {
-  IonCard,
-  IonCardContent,
-  IonList,
-  IonBadge,
+  IonItem,
   IonLabel,
   IonIcon,
   IonText,
-  IonItem,
+  IonBadge,
+  IonCard,
+  IonCardContent,
+  IonList,
 } from "@ionic/react";
 import {
-  linkOutline,
   chevronUpCircleOutline,
+  chatbubbleEllipsesOutline,
+  linkOutline,
   personCircleOutline,
   timeOutline,
-  chatbubbleEllipsesOutline,
 } from "ionicons/icons";
-import { getHostName } from "../../helpers/domain";
+import { getHostName } from "../../helpers/domain.js";
 import formatDistanceToNow from "date-fns/formatDistanceToNow";
 
-const LinkItem = ({ link, index, showCount, url }) => {
+const LinkItem = ({ link, index, showCount, url, browser }) => {
   return (
-    <IonCard routerLink={url} button>
+    <IonCard routerLink={url} onClick={browser} button>
       <IonCardContent class="ion-no-padding">
         <IonList lines="none">
           <IonItem>
@@ -63,7 +63,7 @@ const LinkItem = ({ link, index, showCount, url }) => {
               <p
                 style={{
                   alignItems: "center",
-                  fontSize: "0.8 rem",
+                  fontSize: "0.8rem",
                   fontWeight: "normal",
                 }}
               >
