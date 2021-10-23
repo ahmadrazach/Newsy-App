@@ -11,8 +11,9 @@
 
 
 
-## 1. Demo (Website) : [Click here for demo](https://hackernews-86174.web.app/news) <a name="demo"/>
-![WardenAdminpanel](https://user-images.githubusercontent.com/39387314/138573385-f13fa6c6-7bb2-4fe8-9a7e-1a3d9e6d6ef9.gif)
+## 1. Demo (Website) : [Link](https://hackernews-86174.web.app/news) <a name="demo"/>
+![WardenAdminpanel](https://user-images.githubusercontent.com/39387314/138573385-f13fa6c6-7bb2-4fe8-9a7e-1a3d9e6d6ef9.gif)<br>
+
 
 
 
